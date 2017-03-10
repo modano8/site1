@@ -47,12 +47,13 @@ gulp.task('additional', function() {
 
 // compile scss
 gulp.task('sass', ['fonts'], function() {
-    return gulp.src(css.in)
+    return gulp.src([css.in, css.add])
         .pipe(sass(css.sassOpts))
+        .pipe(concat('main.css'))
         .pipe(gulp.dest(css.out));
 });
 
 // default task
-gulp.task('default', ['sass', 'additional'], function() {
+gulp.task('default', ['sass'], function() {
     gulp.watch(css.watch, ['sass']);
 });
