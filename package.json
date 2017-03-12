@@ -9,10 +9,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "group-array": "0.3.1",
     "gulp": "^3.9.1",
     "gulp-cli": "^1.2.2",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.0.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-inject": "^4.2.0",
     "gulp-livereload": "^3.8.1",
     "gulp-sass": "^3.1.0",
     "merge-stream": "^1.0.1"

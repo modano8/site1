@@ -257,11 +257,6 @@ ul.s4-breadcrumb a.s4-breadcrumbCurrentNode {
     z-index: 50;
 }
 
-#topnavbar .navbar-collapse {
-    max-height: none;
-    clear: both;
-}
-
 
 /*on mobile devices top nav bar will be a drop down, so we want to show across*/
 
@@ -592,11 +587,11 @@ ul.three-up>li:nth-child(3n+1) {
         display: inline-block;
         width: auto;
     }
-    #topnavbar .nav li.static>.menu-item {
+    /*#topnavbar .nav li.static>.menu-item {
         display: inline-block;
         height: 49px;
         padding: 15px 10px 15px 0px;
-    }
+    }*/
     /*hide or provide padding for downdown arrow*/
     #topnavbar .ms-core-listMenu-horizontalBox .dynamic-children.additional-background {
         padding-right: 20px;
